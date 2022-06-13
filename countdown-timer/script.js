@@ -3,7 +3,7 @@ const days1 = document.querySelector('#days');
 const hours1 = document.querySelector('#hours');
 const mins1= document.querySelector('#mins');
 const secs1 = document.querySelector('#seconds')
-const newYears =new Date('06/19/2022');
+const birthday =new Date('06/19/2022');
 const second = 1000;
 const minute = second * 60;
 const hour = minute * 60;
@@ -15,7 +15,7 @@ let timerId;
 
 function countDown(){
     const today = new Date();
-    const timeSpan = newYears - today;
+    const timeSpan = birthday - today;
     
     
     console.log(timeSpan);
