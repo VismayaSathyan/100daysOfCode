@@ -1,4 +1,5 @@
 const countcontainer = document.querySelector('.countdown-container')
+const date = document.querySelector('#date');
 const days1 = document.querySelector('#days');
 const hours1 = document.querySelector('#hours');
 const mins1= document.querySelector('#mins');
